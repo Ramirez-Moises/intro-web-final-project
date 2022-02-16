@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazzy Contact</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1aec0508b3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,33 +22,111 @@
             <a class="logo" href="home.html"> <img src="img/JAZZYLOGO.png" height="45px" width="50px"> </a>
             <a href="home.html">Home</a>
             <a href="about.html">About</a>
-            <a class="active" href="contact.html">Contact</a>  
+            <a class="active" href="contact.html">Contact</a>
+            <a href="home.html" style="float: right;"> <img src="../intro-web-final-project/img/tlogo.png" height="45"> </a>
         </div>
     </nav>
 
-    <h1>Jam With Us</h1>
-
-    <hr>
-
-    <h2>We would love to hear from you.</h2>
-
-    <img src="img/DoubleBassGirl.jpg" width="512" height="768">
-
-    <footer class="row">
-        <div class="foot">
-            <div class="colx3 col-1">
-            <div class="contents1">content</div>
-            </div>
+    <main class="row">
+	
+        <h1>Jam With Us</h1>
+    
+            <hr>
+    
+            <h2>We would love to hear from you.</h2>
+    
+            <br>
+            <br>
+    
+            <article class="colx3 col-1">
+                <div class="contents1">
+                  <div class="contactbox">
+                    <form
+                      action="mailto:andrew.sch.j@gmail.com"
+                      method="post"
+                      enctype="text/plain"
+                    >
+                      <label for="fname">First Name</label>
+                      <input
+                        type="text"
+                        id="fname"
+                        name="firstname"
+                        placeholder="Your name.."
+                      />
+              
+                      <label for="lname">Last Name</label>
+                      <input
+                        type="text"
+                        id="lname"
+                        name="lastname"
+                        placeholder="Your last name.."
+                      />
+              
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Email..." />
+              
+                      <label for="subject">Subject</label>
+                      <textarea
+                        id="subject"
+                        name="subject"
+                        placeholder="Write something.."
+                        style="height: 200px;"
+                      ></textarea>
+              
+                      <input type="submit" value="Submit" />
+                    </form>
+                  </div>
+    
+                </div>
+    
+            </article>
+    
+            <aside class="colx3 col-2">
+                <div class="contents2"> 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.609142008523!2d-119.78801758473597!3d36.7319472799627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945e26d4340503%3A0xb32dda71cf0730a0!2sBitwise%20South%20Stadium!5e0!3m2!1sen!2sus!4v1644971609511!5m2!1sen!2sus" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+                </div>
+            </aside>
 
             <div class="colx3 col-2">
-            <div class="contents2">content</div>
+              <div class="contents3">
+                <a href="https://youtu.be/mlVpBTpaOU8" target="blank"><img style="float: left; padding: 20px; margin: 20px;" src="img/DoubleBassGirl.jpg" width="400"></a>
+              </div>
             </div>
+    
+        </main>
 
-            <div class="colx3 col-3">
-            <div class="contents3">content</div>
-            </div>
-        </div>
-    </footer>
+    
+
+        <footer class="row">
+          <div class="foot">
+              <div class="colx3 col-1">
+              <div class="contents1">
+                  <a href="../intro-web-final-project/faq.html">FAQ</a> / <a href="../intro-web-final-project/contact.html">Contact Us</a>
+                  <br>
+                  <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a>
+              </div>
+              </div>
+  
+              <div class="colx3 col-2">
+              <div class="contents2"><img src="../intro-web-final-project/img/JAZZYLOGO.png" height="100px"> <br> <br> &copy; 2022 National Jazz Association of Unova All rights reserved.</div>
+              </div>
+  
+              <div class="colx3 col-3">
+              <div class="contents3">
+  
+                  <ul>
+                  <li> <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+                  <li> <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                  <li> <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                  <li> <a href="https://youtu.be/VRQDOFaFqWk" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></a></li>
+                  </ul>
+  
+              </div>
+              </div>
+  
+          </div>
+      </footer>
     
 </body>
 </html>
